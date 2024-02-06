@@ -1,3 +1,54 @@
-# In Python anything you enclose between single or double quotes is considered as string. 
-# A string is a sequence or an array of textual data
-# strings are used when working with unicode characters
+print("->   In Python anything you enclose between single or double quotes is considered as string.")
+print("->   A string is a sequence or an array of textual data")
+print("->   strings are used when working with unicode characters")
+print("->   Example:")
+print('->   name = "Moto"')
+print('->   print("Hello,", name)')
+print('->   output will be')
+name = "Moto"
+print("Hello,", name)
+
+print("->   it does not matter you enclose your string in single or double quotes the output will be the same.")
+print("->   But if you want to print quote or double quote in your string")
+print("->   for example consider a sentence")
+print('->   He said, "I want to eat an apple"')
+print('->   How you will print the statement in python')
+print("->   to type quotes in Python you can use escape sequence characters or use single quote for double quote and double quote for single quote typing")
+print("->    for example")
+print('->    you can use escape character like')
+print('->    print(\'he said \", name, speakers are very loud\"\')')
+print('he said \"', name, 'speakers are very loud\"')
+print("->   or you can go this way")
+print('->   print(name, said. "I am better than Samsung")')
+print('->    the output will be')
+print(name, 'said, "I am better than Samsung"')
+print("->   for multiline string we can use escapr sequence character or we can enclose multiline string in three double soutes")
+print("Example")
+print('->   multi= \"\"\"I want to make a multi line string')
+print('->   so I am using a triple quotation approach')
+print('->   I can also use escape sequence character for multiline string\"\"\"')
+multi= """I want to make a multi line string
+so I am using a triple quotation approach
+I can also use escape sequence character for multiline string"""
+print('     -> Now print(multi) will gives us a multi line string, lets test')
+print('print(multi)')
+print( """I want to make a multi line string
+so I am using a triple quotation approach
+I can also use escape sequence character for multiline string""")
+print('->   In python, string is like an array of characters. We can access parts of string by using its index which starts from 0. Square brackets[] can be used to access the elements of string')
+print('->   print(name[0]')
+print('->   print(name[1]')
+print('->   print(name[2]')
+print('->   print(name[3]')
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print('->   We can loop through strings means we can print multiple words in string using for loop')
+print('-> we can use')
+print('for character in name:\n    print(character)')
+print('->   we will use multi instead of name')
+# for character in multi:
+#     print(character)
+for character in name:
+    print(character)
