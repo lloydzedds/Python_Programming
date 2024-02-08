@@ -1,0 +1,21 @@
+print("->   I you have a string with multiple or long characters you can pick the desired length of the string using string slicing")
+print("->   We can find a length of a string using len() function")
+print('->   example\n fruit = "mango"\nlen1 = len(fruit)\nprint("mango is a", len1, "letter word")')
+fruit = "mango"
+len1 = len(fruit)
+print("mango is a", len1, "letter word")
+print(" ")
+print("String Slicing")
+print("--------------")
+print('names = "Harry,Potter"\nprint(names[0:5])\nprint(len(names))')
+print("->    the Output will be")
+names = "Harry,Potter"
+print(names[0:5])
+print(len(names))
+print("->   to print potter you can use statement\n print(names[6:13])")
+print(names[6:13])
+print("->   we can also use negative integers for string slicing for harrt \nprint(names[-12:-7])\nand for Potter you can use\n print(names[-6:])")
+print(names[-12:-6])
+print(names[-6:])
+nm = "Harry"
+print(nm[-4:-2])
